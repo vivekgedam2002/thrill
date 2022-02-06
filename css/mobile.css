@@ -1,0 +1,326 @@
+@media (min-width:320px) and (max-width:480px) {
+    
+    .search,.nav{
+        display: none;
+    }
+   
+    /* make things visible for mobile  */
+
+
+ /* global css  */
+  .container{
+      width: 90%;
+  }
+
+    /* css for header  */
+    .header_left{
+        width: 70%;
+    }
+    .logo{
+        width: 80%;
+    }
+
+    .header_right{
+        width: 14%;
+    }
+    .hamburger{
+        display: flex;
+        width: 100%;
+        height: 23px;
+        /* background-color: white; */
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .ham{
+        height: 3px;
+        width: 80%;
+        border-radius: 10px;
+        background-color: white;
+    }
+
+
+    /* css for banner  */
+    .banner{
+        justify-content: flex-start;
+    }
+    .banner_title{
+        font-size: 30px;
+        font-weight: 400;
+        /* margin-top: 500px; */
+    }
+    .banner_content{
+        margin-top: 250px;
+    }
+    .slider_elem{
+        font-size: 50px;
+    }
+  .filter{
+      height: auto;
+  }
+  .catagories{
+      height: auto;
+      width: 90%;
+      flex-wrap: wrap;
+      column-gap: 1px;
+      row-gap: 1px;
+  }
+  
+  .catagories > a{
+     width: 49%;
+     flex-grow: 1;
+     text-align: center;
+  }
+ 
+  .search-box{
+      margin-top: 20px;
+    height: 40px;
+  }
+  .search-box > input{
+      font-size: 15px;
+      height: 40px;
+  }
+  .search-box > p{
+      font-size: 14px;
+      height: 40px;
+      line-height: 40px;
+  }
+
+  .banner_footer{
+      width: 100%;
+      height: 200px;
+      flex-wrap: wrap;
+  }
+/* css for perfect escape  */
+.perfect_escape{
+    padding-top: 30px;
+}
+.escape_container{
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    height:700px;
+
+    /* overflow: scroll; */
+}
+.section_title{
+    width: 90%;
+    height: 80px;
+    font-size: 16px;
+    margin-bottom:20px;
+}
+.escape_img{
+    width: 35%;
+    height: 200px;
+    /* margin-bottom: 20px;    */
+}
+
+/* css for packages */
+.packages{
+    padding-top: 50px;
+}
+.packages_container{
+    flex-direction: column;
+}
+.offer_packages{
+width: 100%;
+height: 400px;
+padding-top: 30px;
+}
+.upto{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.amount > h1{
+    font-size:150px;
+}
+.percent{
+    font-size: 50px;
+}
+.holiday{
+    font-size: 25px;
+}
+.button{
+    width: 60%;
+}
+.offer_btn{
+    font-size: 15px;
+    width: 100%;
+}
+.gallery{
+    width: 100%;
+    margin-top: 30px;
+}
+
+
+/* css for carousel */
+
+.carousal_container {
+    height: 100px;
+}
+.carousal_slider{
+    height: 100px;
+}
+
+.experience{
+    margin-bottom:0px;
+}
+
+.slider_buttons{
+    display: none;
+}
+
+.experience_container{
+    overflow: scroll;
+}
+.experience_slider{
+    margin-left: 0%;
+    width: calc(64.5%*21);
+}
+
+.badges{
+    width: 80%;
+    overflow-x: scroll;
+    height: 60px;
+    column-gap: 5px;
+}
+
+
+/* css for destinatio */
+.destination_container{
+    width:100%;
+}
+.destination{
+    width: 44%;
+}
+.destination_btn{
+    width: 45%;
+}
+.destination_details{
+    margin-left: 2px;
+}
+
+
+/* css for paradise */
+
+.paradise{
+    margin-top: 50px;
+}
+.earth_container {
+   width: 48%;
+}
+
+.paradise_content{
+    column-gap: 10px;
+    font-size: 12px;
+}
+
+/* css for travel */
+.travel{
+    margin-top: 60px;
+}
+.travel_container{
+    flex-direction: column;
+    margin-top: 0px;
+}
+.travel_left{
+    width: 100%;
+}
+.travel_right{
+    width: 100%;
+
+}
+.artical_right{
+    margin-top: 10px;
+    margin-left: 64%;
+}
+
+/* css for giftcard  */
+.giftcard{
+    margin-top: 50px;
+}
+.gift_container{
+    flex-direction: column;
+}
+.gift_img{
+    width: 100%;
+}
+.gift_experience{
+    width: 90%;
+}
+.gift_experience > h1{
+    font-size: 25px;
+}
+
+/* css for partner  */
+.partner {
+    margin-top: 110px;
+}
+.partner_title{
+    font-size: 25px;
+}
+.partner_subtitle > p{
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.partner_container {
+    margin-top: 10px;
+    column-gap: 15%;
+}
+.partner_logo {
+    width: 23%;
+    justify-content: space-around;
+}
+
+
+/* css for footer  */
+
+.footer{
+    margin-top: 120px;
+    height: 1150px;
+}
+.footer_container{
+    flex-wrap: wrap;
+}
+.footer_content {
+    width: 100%;
+    padding: 0%;
+}
+hr{
+    display: none;
+}
+
+.footer_line {
+    margin-top: 850px;
+}
+.line1{
+    width: 34%;
+}
+
+.footer_line_img {
+    width: 29%;
+    margin-left: 39%;
+    background-position-y: -167px;
+   height: 22px;
+}
+.links{
+    margin-top: 880px;
+}
+
+
+.copyright_container {
+    margin-top: 953px;
+}
+
+
+/* css for designer */
+
+.designer {
+    width: 45%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    border-radius: 20px;
+}
+
+
+}
